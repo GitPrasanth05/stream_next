@@ -157,7 +157,7 @@ input {
   width: 1270px;
   box-shadow: 0 0 20px rgb(58, 5, 108);
   text-transform: uppercase;
-  border-radius: 20px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   transition: all 0.3s ease-in-out;
@@ -166,3 +166,12 @@ input {
   transform: translate(-50%, -50%);
 }
 
+.d {
+  transition: all 0.3 ease-in-out;
+  box-shadow: 0 0 20px violet;
+}
+
+.d:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 30px gold;
+}

@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 const Home = () => {
   const [data, setData] = useState([]);
   const [loading, setloading] = useState(true);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [back, setBack] = useState(0);
 
   useEffect(() => {
     const fetchFromLocalStorage = () => {
@@ -33,7 +33,7 @@ const Home = () => {
   useEffect(() => {
     if (data.length > 0) {
       const intervalId = setInterval(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
+        setBack((prev) => (prev + 1) % data.length);
       }, 2000);
       return () => clearInterval(intervalId);
     }
@@ -51,7 +51,7 @@ const Home = () => {
     <>
       <Navbar />
       <div className="full">
-        {data.length > 0 && <Backdrop b={data[currentIndex]} />}
+        {data.length > 0 && <Backdrop b={data[back]} />}
         <div className="main">
           {data.map((k) => (
             <Card key={k.id} dt={k} />
