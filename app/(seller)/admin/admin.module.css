@@ -1,0 +1,63 @@
+.admin-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.admin-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ffffff;
+}
+
+.admin-th,
+.admin-td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.admin-th {
+  background-color: #f0f0f0;
+}
+
+.admin-btn {
+  padding: 5px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #f9c74f;
+  color: #000;
+}
+
+.edit-btn:hover {
+  background-color: #f1b82c;
+}
+
+.delete-btn {
+  background-color: #d90429;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #a8001f;
+}
+
+.admin-loading {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}

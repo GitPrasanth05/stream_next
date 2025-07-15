@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    15deg,
+    #3a0d67,
+    rgb(3, 3, 3),
+    #6c14a4,
+    purple,
+    rgb(3, 3, 3),
+    #8f1d9d
+  );
+}
+
+.login {
+  /* background: linear-gradient(
+    30deg,
+    violet,
+    pink,
+    rgb(20, 25, 91),
+    #3e0450,
+    purple,
+    silver
+  ); */
+  /* background: linear-gradient(15deg, #0f0c29, purple, #24243e); */
+  background: linear-gradient(
+    200deg,
+    rgb(13, 178, 146),
+    rgb(161, 180, 123),
+    purple,
+    violet
+  );
+  box-shadow: 0 0 120px rgb(86, 3, 241);
+  color: wheat;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  padding: 30px;
+  border-radius: 20px;
+  align-items: center;
+}
+.nm {
+  display: flex;
+  gap: 20px;
+  height: 500px;
+  width: 500px;
+}
+
+.reg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background: #000;
+  width: 200px;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.fm {
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.h {
+  text-transform: uppercase;
+  font-size: 3rem;
+  box-shadow: 0 0 30px black;
+  border-radius: 20px;
+  background: linear-gradient(20deg, black, purple, black);
+  padding: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-size: 48px; */
+  font-weight: bold;
+}
