@@ -1,6 +1,9 @@
-:global(body) {
+body {
   align-items: center;
   justify-content: center;
+  padding: 0px;
+  margin: 0;
+  border: 0;
 }
 
 .signup {
@@ -26,7 +29,6 @@ form {
 body {
   background-color: black;
   color: white;
-  padding: 40px;
 }
 
 .main {
@@ -99,6 +101,7 @@ button:hover {
 }
 .bg {
   width: auto;
+  margin: 20px;
   box-shadow: 0 0 70px PINK;
   border-radius: 20px;
   height: auto;
@@ -174,4 +177,62 @@ input {
 .d:hover {
   transform: scale(1.2);
   box-shadow: 0 0 30px gold;
+}
+
+.big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    15deg,
+    #3a0d67,
+    rgb(3, 3, 3),
+    #6c14a4,
+    purple,
+    rgb(3, 3, 3),
+    #8f1d9d
+  );
+  margin: 0;
+}
+.bd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    15deg,
+    #3a0d67,
+    rgb(3, 3, 3),
+    #6c14a4,
+    purple,
+    rgb(3, 3, 3),
+    #8f1d9d
+  );
+}
+.b {
+  background: linear-gradient(
+    150deg,
+    black,
+    rgb(54, 54, 150),
+    grey,
+    black,
+    purple
+  );
+}
+
+.lgg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    15deg,
+    #3a0d67,
+    rgb(3, 3, 3),
+    #6c14a4,
+    purple,
+    rgb(3, 3, 3),
+    #8f1d9d
+  );
 }

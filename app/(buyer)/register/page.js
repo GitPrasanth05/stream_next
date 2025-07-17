@@ -32,29 +32,31 @@ const Register = () => {
     }
   };
   return (
-    <div className={sg.login}>
-      <h1 className={sg.h}>signup</h1>
-      {/* <div className={}> */}
-      <form onSubmit={handlesubmit} className={sg.fm}>
-        <label>Enter the username</label>
-        <input value={user} onChange={(e) => setUser(e.target.value)}></input>
-        <label>Enter the password </label>
-        <input
-          value={pass}
-          // type="password"
-          onChange={(e) => setPass(e.target.value)}
-        ></input>
-        <label>again enter the password </label>
-        <input
-          value={confpass}
-          // type="password"
-          onChange={(e) => confirmsetPass(e.target.value)}
-        ></input>
-        <button className={sg.btn}>register</button>
-        {confset && (
-          <p style={{ color: "red" }}> both passwords should be same</p>
-        )}
-      </form>
+    <div className="big">
+      <div className={sg.login}>
+        <h1 className={sg.h}>signup</h1>
+        {/* <div className={}> */}
+        <form onSubmit={handlesubmit} className={sg.fm}>
+          <label>Enter the username</label>
+          <input value={user} onChange={(e) => setUser(e.target.value)}></input>
+          <label>Enter the password </label>
+          <input
+            value={pass}
+            // type="password"
+            onChange={(e) => setPass(e.target.value)}
+          ></input>
+          <label>again enter the password </label>
+          <input
+            value={confpass}
+            // type="password"
+            onChange={(e) => confirmsetPass(e.target.value)}
+          ></input>
+          <button className={sg.btn}>register</button>
+          {confset && (
+            <p style={{ color: "red" }}> both passwords should be same</p>
+          )}
+        </form>
+      </div>
     </div>
     // </div>
   );

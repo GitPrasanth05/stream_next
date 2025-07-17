@@ -1,18 +1,4 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(
-    15deg,
-    #3a0d67,
-    rgb(3, 3, 3),
-    #6c14a4,
-    purple,
-    rgb(3, 3, 3),
-    #8f1d9d
-  );
-}
+
 
 .login {
   /* background: linear-gradient(
