@@ -88,7 +88,7 @@
   font-size: 2rem;
 }
 
-body {
+:global(body) {
   background: linear-gradient(
     150deg,
     black,
