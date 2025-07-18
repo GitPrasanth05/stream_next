@@ -1,7 +1,3 @@
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className="bd">{children}</body>
-    </html>
-  );
+  return <div className="a">{children}</div>;
 }
